@@ -212,6 +212,101 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
 
+.deadpool-site { font-size: 16px; }
+.deadpool-site .brand-copy strong { font-size: 20px; }
+.deadpool-site .brand-copy small { font-size: 10px; }
+.deadpool-site .main-nav a { padding-right: 22px; padding-left: 22px; font-size: 13px; }
+.deadpool-site .main-nav a b { font-size: 11px; }
+.deadpool-site .masthead-right { font-size: 11px; }
+.deadpool-site .hero-meta, .deadpool-site .hero-kicker { font-size: 11px; }
+.deadpool-site .hero-description { font-size: 17px; line-height: 1.7; }
+.deadpool-site .hero-description i { font-size: 20px; }
+.deadpool-site .primary-action { font-size: 14px; }
+.deadpool-site .sound-toggle { font-size: 13px; }
+.deadpool-site .clock-label { font-size: 11px; }
+.deadpool-site .hero-clock > span:last-child { font-size: 10px; }
+.deadpool-site .art-number { font-size: 11px; }
+.deadpool-site .art-caption { font-size: 10px; }
+.deadpool-site .art-side-note { font-size: 10px; }
+.deadpool-site .art-index { font-size: 10px; }
+.deadpool-site .hero-bottomline { font-size: 10px; }
+.deadpool-site .ticker { font-size: 11px; }
+.deadpool-site .section-label { font-size: 11px; }
+.deadpool-site .section-intro { font-size: 16px; line-height: 1.7; }
+.deadpool-site .step-no, .deadpool-site .step-footer { font-size: 10px; }
+.deadpool-site .method-step h3 { font-size: 18px; }
+.deadpool-site .method-step p { font-size: 14px; line-height: 1.7; }
+.deadpool-site .method-note p { font-size: 16px; }
+.deadpool-site .method-note > span:last-child { font-size: 10px; }
+.deadpool-site .gallery-heading > p { font-size: 15px; line-height: 1.7; }
+.deadpool-site .photo-card figcaption { font-size: 11px; line-height: 1.5; }
+.deadpool-site .photo-card figcaption > span:last-child { font-size: 10px; }
+.deadpool-site .gallery-credit-note { font-size: 11px; line-height: 1.6; }
+.deadpool-site .case-fileline { font-size: 10px; }
+.deadpool-site .case-context { font-size: 15px; line-height: 1.75; }
+.deadpool-site .case-progress { font-size: 10px; }
+.deadpool-site .case-stamp span { font-size: 9px; }
+.deadpool-site .board-topline { font-size: 10px; }
+.deadpool-site .evidence-index { font-size: 10px; }
+.deadpool-site .evidence-copy b { font-size: 13px; }
+.deadpool-site .evidence-detail, .deadpool-site .evidence-reveal { font-size: 12px; line-height: 1.6; }
+.deadpool-site .answer-question { font-size: 12px; }
+.deadpool-site .answer-button { font-size: 12px; }
+.deadpool-site .answer-feedback { font-size: 11px; }
+.deadpool-site .plan-label { font-size: 11px; }
+.deadpool-site .holmes-copy > p:not(.section-label) { font-size: 15px; line-height: 1.8; }
+.deadpool-site .text-link { font-size: 12px; }
+.deadpool-site .portrait-caption { font-size: 10px; }
+.deadpool-site .site-footer p { font-size: 12px; }
+
+@media (max-width: 900px) {
+  .deadpool-site .masthead { padding-right: 22px; padding-left: 22px; }
+  .deadpool-site .brand { gap: 9px; }
+  .deadpool-site .main-nav a { gap: 6px; padding-right: 12px; padding-left: 12px; font-size: 12px; }
+  .deadpool-site .masthead-right { font-size: 10px; }
+}
+
+@media (max-width: 640px) {
+  .deadpool-site .masthead { height: 78px; padding: 0 14px; }
+  .deadpool-site .brand-copy strong { font-size: 17px; }
+  .deadpool-site .brand-copy small { font-size: 10px; }
+  .deadpool-site .masthead-right { max-width: 32px; font-size: 0; }
+  .deadpool-site .main-nav { top: 78px; height: 46px; }
+  .deadpool-site .main-nav a { gap: 6px; padding: 0 5px; font-size: 11px; }
+  .deadpool-site .main-nav a b { font-size: 10px; }
+  .deadpool-site .hero { padding-top: 69px; }
+  .deadpool-site .hero-meta, .deadpool-site .hero-kicker { font-size: 11px; }
+  .deadpool-site .hero-description { font-size: 15px; }
+  .deadpool-site .hero-description i { font-size: 18px; }
+  .deadpool-site .hero-actions { gap: 13px; }
+  .deadpool-site .primary-action { font-size: 12px; }
+  .deadpool-site .sound-toggle { font-size: 11px; }
+  .deadpool-site .clock-label { font-size: 10px; }
+  .deadpool-site .hero-clock > span:last-child { font-size: 9px; }
+  .deadpool-site .art-caption { font-size: 9px; }
+  .deadpool-site .art-caption a { font-size: 9px; }
+  .deadpool-site .hero-bottomline { font-size: 9px; }
+  .deadpool-site .ticker { font-size: 9px; }
+  .deadpool-site .section-label { font-size: 10px; }
+  .deadpool-site .section-intro { font-size: 14px; }
+  .deadpool-site .step-no, .deadpool-site .step-footer { font-size: 9px; }
+  .deadpool-site .method-step h3 { font-size: 17px; }
+  .deadpool-site .method-step p { font-size: 14px; }
+  .deadpool-site .method-note p { font-size: 14px; }
+  .deadpool-site .gallery-heading > p { font-size: 14px; }
+  .deadpool-site .photo-card figcaption { font-size: 10px; }
+  .deadpool-site .photo-card figcaption > span:last-child { font-size: 9px; }
+  .deadpool-site .gallery-credit-note { font-size: 10px; }
+  .deadpool-site .case-fileline { font-size: 9px; }
+  .deadpool-site .case-context { font-size: 14px; }
+  .deadpool-site .board-topline { font-size: 9px; }
+  .deadpool-site .evidence-copy b { font-size: 12px; }
+  .deadpool-site .evidence-detail, .deadpool-site .evidence-reveal { font-size: 11px; }
+  .deadpool-site .holmes-copy > p:not(.section-label) { font-size: 14px; }
+  .deadpool-site .site-footer p { font-size: 11px; }
+  .deadpool-site .main-nav a:first-child, .deadpool-site .main-nav a:nth-child(2) { display: flex; }
+}
+
 .deadpool-site { --signal: #f5f3ef; --paper: #f2f1ee; }
 .deadpool-site .masthead { width: 100%; height: 86px; padding: 0 clamp(20px, 5vw, 76px); border: 0; border-bottom: 4px solid var(--blue); background: #111; color: white; }
 .deadpool-site .brand { gap: 13px; color: white; letter-spacing: .08em; }
@@ -293,7 +388,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .deadpool-site .brand b { display: inline-block; padding: 3px 5px; background: var(--signal); color: var(--ink); }
 .deadpool-site .masthead-right { color: #535351; font-size: 8px; }
 .deadpool-site .weather-dot, .deadpool-site .live-dot { border-radius: 0; background: var(--blue); transform: rotate(45deg); }
-.deadpool-site .main-nav a { color: var(--ink); font-size: 10px; text-transform: uppercase; }
+.deadpool-site .main-nav a { color: #f2f1ee; font-size: 10px; text-transform: uppercase; }
 .deadpool-site .main-nav a::after { height: 3px; background: var(--blue); }
 .deadpool-site .hero { min-height: min(720px, calc(100svh - 74px)); background: var(--blue); color: #fffdf8; }
 .deadpool-site .hero::before { width: 100%; height: 100%; background-image: radial-gradient(rgba(245,243,239,.24) 1px, transparent 1.4px); background-size: 11px 11px; mask-image: linear-gradient(90deg, #000 0, transparent 47%); }
@@ -426,7 +521,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .deadpool-site .main-nav { gap: 11px; }
   .deadpool-site .main-nav a { font-size: 8px; }
   .deadpool-site .main-nav a:first-child { display: inline; }
-  .deadpool-site .main-nav a:nth-child(2) { display: none; }
+  .deadpool-site .main-nav a:nth-child(2) { display: flex; }
   .deadpool-site .hero { min-height: 0; padding: 25px 17px 64px; }
   .deadpool-site .hero h1 { font-size: clamp(83px, 22vw, 120px); }
   .deadpool-site .hero-art { height: 105vw; min-height: 300px; max-height: 430px; margin: 23px 8px 0 0; padding: 7px 9px 10px 0; }
@@ -725,4 +820,98 @@ body[data-period="night"] .weather-dot { background: #205c68; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
+
+.deadpool-site .brand-copy strong { font-size: 20px; }
+.deadpool-site .brand-copy small { font-size: 10px; }
+.deadpool-site .main-nav a { padding-right: 22px; padding-left: 22px; font-size: 13px; }
+.deadpool-site .main-nav a b { font-size: 11px; }
+.deadpool-site .masthead-right { font-size: 11px; }
+.deadpool-site .hero-meta, .deadpool-site .hero-kicker { font-size: 11px; }
+.deadpool-site .hero-description { font-size: 17px; line-height: 1.7; }
+.deadpool-site .hero-description i { font-size: 20px; }
+.deadpool-site .primary-action { font-size: 14px; }
+.deadpool-site .sound-toggle { font-size: 13px; }
+.deadpool-site .clock-label { font-size: 11px; }
+.deadpool-site .hero-clock > span:last-child { font-size: 10px; }
+.deadpool-site .art-number { font-size: 11px; }
+.deadpool-site .art-caption { font-size: 10px; }
+.deadpool-site .art-side-note, .deadpool-site .art-index { font-size: 10px; }
+.deadpool-site .hero-bottomline { font-size: 10px; }
+.deadpool-site .ticker { font-size: 11px; }
+.deadpool-site .section-label { font-size: 11px; }
+.deadpool-site .section-intro { font-size: 16px; line-height: 1.7; }
+.deadpool-site .step-no, .deadpool-site .step-footer { font-size: 10px; }
+.deadpool-site .method-step h3 { font-size: 18px; }
+.deadpool-site .method-step p { font-size: 14px; line-height: 1.7; }
+.deadpool-site .method-note p { font-size: 16px; }
+.deadpool-site .method-note > span:last-child { font-size: 10px; }
+.deadpool-site .gallery-heading > p { font-size: 15px; line-height: 1.7; }
+.deadpool-site .photo-card figcaption { font-size: 11px; line-height: 1.5; }
+.deadpool-site .photo-card figcaption > span:last-child { font-size: 10px; }
+.deadpool-site .gallery-credit-note { font-size: 11px; line-height: 1.6; }
+.deadpool-site .case-fileline { font-size: 10px; }
+.deadpool-site .case-context { font-size: 15px; line-height: 1.75; }
+.deadpool-site .case-progress, .deadpool-site .case-stamp span { font-size: 10px; }
+.deadpool-site .board-topline { font-size: 10px; }
+.deadpool-site .evidence-index { font-size: 10px; }
+.deadpool-site .evidence-copy b { font-size: 13px; }
+.deadpool-site .evidence-detail, .deadpool-site .evidence-reveal { font-size: 12px; line-height: 1.6; }
+.deadpool-site .answer-question, .deadpool-site .answer-button { font-size: 12px; }
+.deadpool-site .answer-feedback { font-size: 11px; }
+.deadpool-site .plan-label { font-size: 11px; }
+.deadpool-site .holmes-copy > p:not(.section-label) { font-size: 15px; line-height: 1.8; }
+.deadpool-site .text-link { font-size: 12px; }
+.deadpool-site .portrait-caption { font-size: 10px; }
+.deadpool-site .site-footer p { font-size: 12px; }
+
+@media (max-width: 900px) {
+  .deadpool-site .masthead { padding-right: 22px; padding-left: 22px; }
+  .deadpool-site .main-nav a { gap: 6px; padding-right: 12px; padding-left: 12px; font-size: 12px; }
+  .deadpool-site .masthead-right { font-size: 10px; }
+}
+@media (max-width: 640px) {
+  .deadpool-site .masthead { height: 78px; padding: 0 14px; }
+  .deadpool-site .brand-copy strong { font-size: 17px; }
+  .deadpool-site .brand-copy small { font-size: 9px; }
+  .deadpool-site .masthead-right { max-width: 32px; font-size: 0; }
+  .deadpool-site .main-nav { top: 78px; height: 46px; }
+  .deadpool-site .main-nav a { gap: 6px; padding: 0 5px; font-size: 11px; }
+  .deadpool-site .main-nav a b { font-size: 10px; }
+  .deadpool-site .hero { padding-top: 69px; }
+  .deadpool-site .hero-meta, .deadpool-site .hero-kicker { font-size: 10px; }
+  .deadpool-site .hero-description { font-size: 15px; }
+  .deadpool-site .hero-description i { font-size: 18px; }
+  .deadpool-site .hero-actions { gap: 13px; }
+  .deadpool-site .primary-action { font-size: 12px; }
+  .deadpool-site .sound-toggle { font-size: 11px; }
+  .deadpool-site .clock-label { font-size: 11px; }
+  .deadpool-site .hero-clock > span:last-child { font-size: 10px; }
+  .deadpool-site .art-caption, .deadpool-site .art-caption a { font-size: 10px; }
+  .deadpool-site .hero-bottomline, .deadpool-site .ticker { font-size: 10px; }
+  .deadpool-site .section-label { font-size: 11px; }
+  .deadpool-site .section-intro { font-size: 14px; }
+  .deadpool-site .step-no, .deadpool-site .step-footer { font-size: 10px; }
+  .deadpool-site .method-step h3 { font-size: 17px; }
+  .deadpool-site .method-step p { font-size: 14px; }
+  .deadpool-site .method-note p { font-size: 14px; }
+  .deadpool-site .gallery-heading > p { font-size: 14px; }
+  .deadpool-site .photo-card figcaption { font-size: 10px; }
+  .deadpool-site .photo-card figcaption > span:last-child, .deadpool-site .gallery-credit-note { font-size: 10px; }
+  .deadpool-site .case-fileline { font-size: 10px; }
+  .deadpool-site .case-context { font-size: 14px; }
+  .deadpool-site .board-topline { font-size: 10px; }
+  .deadpool-site .evidence-copy b { font-size: 12px; }
+  .deadpool-site .evidence-detail, .deadpool-site .evidence-reveal { font-size: 11px; }
+  .deadpool-site .holmes-copy > p:not(.section-label) { font-size: 14px; }
+  .deadpool-site .site-footer p { font-size: 11px; }
+  .deadpool-site .hero-meta, .deadpool-site .hero-kicker { font-size: 11px; }
+  .deadpool-site .clock-label { font-size: 11px; }
+  .deadpool-site .hero-clock > span:last-child { font-size: 10px; }
+  .deadpool-site .art-caption, .deadpool-site .art-caption a { font-size: 10px; }
+  .deadpool-site .hero-bottomline, .deadpool-site .ticker { font-size: 10px; }
+  .deadpool-site .section-label { font-size: 11px; }
+  .deadpool-site .step-no, .deadpool-site .step-footer { font-size: 10px; }
+  .deadpool-site .photo-card figcaption > span:last-child, .deadpool-site .gallery-credit-note { font-size: 10px; }
+  .deadpool-site .case-fileline, .deadpool-site .board-topline { font-size: 10px; }
 }
